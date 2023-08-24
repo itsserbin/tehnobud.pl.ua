@@ -202,7 +202,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
-                            <div class="card">
+                            <div class="card mx-auto">
                                 <img src="{{ asset('assets/images/img/license1.jpeg') }}" class="card-img-top"
                                      alt="item">
                             </div>
@@ -212,7 +212,7 @@
                     </div>
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
-                            <div class="card">
+                            <div class="card mx-auto">
                                 <img src="{{ asset('assets/images/img/license2.jpeg') }}" class="card-img-top"
                                      alt="item">
                             </div>
