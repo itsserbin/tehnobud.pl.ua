@@ -14,7 +14,7 @@
                     </span>
                 @endif
 
-                <p class="text-muted mt-5 d-none d-xl-block">Copyright ©2021</p>
+                <p class="text-muted mt-5 d-none d-xl-block">Copyright ©2023</p>
                 <form action="#" class="d-none d-md-block d-xl-none mt-5">
                     <button type="button" class="btn btn-outline-primary w-100 primary-hover
                              primary-hover-outline position-relative" data-bs-toggle="modal"
