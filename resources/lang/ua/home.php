@@ -32,7 +32,7 @@ return [
         'any_text'       => 'Для охочих купити квартиру в Полтаві новобудова може... SEO текст - копірайтінг - vel eros donec ac
                     odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu,
                     consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas...',
-        'address'        => 'м. Полтава вул. Гоголя 4',
+        'address'        => 'м. Полтава вул.Кагамлика, буд.11',
     ],
     'placeholder' => [
         'city'    => 'Місто',
