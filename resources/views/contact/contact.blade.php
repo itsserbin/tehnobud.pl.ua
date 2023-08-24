@@ -81,8 +81,8 @@
                                             </svg>
 
                                             <span class="text-dark fw-bold">
-                                    tehnobudpl@gmail.com
-                                </span>
+                                                stop_pol@ukr.net
+                                            </span>
                                             <svg class="chevron" width="7" height="13" viewBox="0 0 7 13" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path fill-rule="evenodd" clip-rule="evenodd"
