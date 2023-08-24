@@ -203,7 +203,7 @@
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/license1.jpge') }}" class="card-img-top"
+                                <img src="{{ asset('assets/images/img/license1.jpeg') }}" class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.license')}}</p>
