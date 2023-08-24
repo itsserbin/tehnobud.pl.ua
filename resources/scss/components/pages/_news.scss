@@ -1,0 +1,26 @@
+#news {
+    .black-container {
+        min-height: 127px;
+    }
+    .white-container {
+        min-height: 80px;
+    }
+    .wrapper-contact {
+        a {
+            font-weight: bold;
+            color: $grey2;
+            width: fit-content;
+        }
+    }
+    .wrapper-news {
+        border: 1px solid $grey-line;
+    }
+}
+
+@media (max-width: 768px) {
+    #news {
+        .black-container {
+            min-height: 57px;
+        }
+    }
+}

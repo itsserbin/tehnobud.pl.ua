@@ -1,0 +1,303 @@
+.object {
+    &-container {
+        background-color: $black;
+        height: 700px;
+        padding-top: 127px;
+        padding-left: 0;
+        padding-right: 0;
+
+        .wrapper-description {
+            padding-left: 80px;
+            padding-bottom: 100px;
+
+            .wrapper-address {
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+                span {
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .wrapper-slider {
+            right: 10%;
+            top: 99px;
+
+            .object-slider {
+                z-index: 9;
+                .prev,
+                .next {
+                    background-color: $white;
+                    height: 56px;
+                    width: 56px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    position: absolute;
+                    right: -10%;
+                }
+                .prev {
+                    bottom: 0;
+                }
+                .next {
+                    bottom: 13%;
+                }
+                .slider-item {
+                    height: 490px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                }
+            }
+
+            .diagonal {
+                right: -2%;
+                top: 10%;
+            }
+        }
+
+    }
+
+    &-tabs {
+        margin-top: -75px;
+        z-index: 2;
+        position: relative;
+        .nav {
+            &-item {
+                width: calc(100% / 3 - 20px);
+                .nav-link {
+                    color: $grey2;
+                    border: 2px solid #C6CBFF;
+                    &.active {
+                        color: $black;
+                        border-color: #4E5DE3;
+                        svg path {
+                            fill: $blue;
+                        }
+                    }
+                }
+            }
+        }
+        .description {
+            &-title {
+                top: -20px;
+                background-color: $white;
+                left: -2px;
+                padding-right: 10px;
+            }
+        }
+        .additional-info {
+            .list-info {
+                li:before {
+                    content:"";
+                    height: 11px;
+                    width: 11px;
+                    background-color: $blue;
+                    display: inline-block;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .object-map {
+            &-img {
+                height: 270px;
+            }
+        }
+        .pdf {
+            &-wrapper {
+                &-btn {
+                    border: 20px solid $grey4;
+                    border-right-width: 120px;
+                    height: 188px;
+
+                    .btn {
+                        height: 75px;
+                        font-size: 18px;
+
+                        span {
+                            top: 20px;
+                        }
+                    }
+
+                    .pdf-book {
+                        top: -130px;
+                        z-index: 9;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .diagonal-black {
+        height: 65px;
+        top: -35px;
+        right: -35px;
+    }
+}
+[data-toggle="collapse"].collapsed .if-not-collapsed,
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {display: none;}
+
+.wrapper-apartment {
+    li {
+        border-bottom: 1px solid $grey4;
+
+        .color-box {
+            height: 17px;
+            width: 80px;
+
+            &.grey {
+                background-color: #757575;
+            }
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.news {
+    border: 1px solid $grey-line;
+    p {
+        line-height: 18px;
+    }
+    &-button {
+        svg path {
+            fill: #6c757d;
+        }
+
+        &:hover {
+            svg path {
+                fill: $white;
+            }
+        }
+    }
+    &-title {
+        color: #0f0f0f;
+        top: -13px;
+        background-color: $white;
+        left: -2px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    &-date {
+        color: #757575;
+    }
+    &-text {
+        color: #353535;
+    }
+}
+
+.object-line {
+    cursor: pointer;
+}
+
+.wrapper-description {
+    .wrapper-button {
+        .btn {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .object {
+        &-container {
+            height: auto;
+
+            .wrapper {
+                &-description {
+                    padding-left: 20px;
+                }
+                &-address {
+                    column-count: 2;
+                }
+            }
+        }
+        &-container-mobile {
+            width: 96%;
+        }
+        &-tabs {
+            margin-top: -89px;
+
+            .nav-link {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                height: 100%;
+            }
+        }
+        .mobile-slider {
+            .object-slider {
+                padding-bottom: 56px;
+                .prev,
+                .next {
+                    right: 0;
+                }
+
+                .slider-item {
+                    background-position: center;
+                    background-size: contain !important;
+                }
+            }
+        }
+    }
+    .pdf-book {
+        width: 80%;
+        top: -165px !important;
+        right: -150px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .object-tabs {
+        .nav-item {
+            width: 100%;
+            border: 1px solid $grey-line;
+        }
+        .wrapper-buildings {
+            overflow-x: auto;
+        }
+    }
+    .mobile-slider {
+        .object-slider {
+            padding-bottom: 100px !important;
+
+            .prev,
+            .next {
+                height: 70px !important;
+                width: 70px !important;
+            }
+
+            .prev {
+                left: 0;
+            }
+
+            .next {
+                bottom: 0 !important;
+            }
+        }
+    }
+    .pdf-wrapper {
+        &-btn {
+            height: auto !important;
+            border-right-width: 20px !important;
+
+            .pseudo-img {
+                height: 160px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

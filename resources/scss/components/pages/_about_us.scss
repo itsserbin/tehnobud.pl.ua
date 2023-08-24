@@ -1,0 +1,124 @@
+#about-us {
+    .wrapper-contact {
+        padding-top: 127px;
+        .contact {
+            &.description {
+                padding-top: 40px;
+                padding-left: 126px;
+            }
+            &-title {
+                padding-left: 70px;
+            }
+
+            .wrapper-map {
+                left: -20%;
+                top: 5%;
+
+                .img-about {
+                    height: 500px;
+                    width: 600px;
+                }
+            }
+        }
+    }
+}
+.our-service {
+    &:hover {
+        text-decoration: underline;
+
+        span {
+            color: #0067ff;
+        }
+        svg path {
+            fill: #0067ff;
+        }
+    }
+}
+.partner-img {
+    height: 196px;
+    align-items: center;
+}
+
+#service {
+    .our-service {
+        font-size: 22px;
+    }
+    .service-items {
+        .card {
+            height: 160px;
+
+            &-img-top {
+                bottom: 0;
+                height: 218px;
+            }
+            &-body {
+                width: auto;
+                position: absolute;
+                bottom: -9px;
+                left: -10px;
+                padding-bottom: 13px;
+                border: none;
+            }
+        }
+        .card:hover {
+            .card-body {
+                transform: translate(10px, -10px);
+                transition: 300ms;
+            }
+        }
+        .nav-link-text {
+            font-size: 14px;
+        }
+
+    }
+}
+
+#contact {
+    .contact-item {
+        .btn:hover {
+            svg path {
+                fill: $white;
+            }
+        }
+    }
+}
+
+#documentation {
+    .wrapper-license {
+        .card {
+            max-width: 325px !important;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #about-us {
+        .wrapper {
+            &-contact {
+                padding-top: 77px;
+
+                .contact.description {
+                    padding-left: 35px;
+                }
+            }
+
+            &-map {
+                top: 30% !important;
+            }
+        }
+    }
+}
+.layout-modal-content {
+    text-align: center;
+}
+@media (max-width: 425px) {
+    #service {
+        .card {
+            height: 90px !important;
+
+            &-img-top {
+                height: 120px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+#contact {
+    .wrapper-contact {
+        padding-top: 127px;
+        .contact {
+            height: 585px;
+
+            &.description {
+                padding-top: 40px;
+                padding-left: 126px;
+            }
+            &-title {
+                padding-left: 70px;
+            }
+
+            &-link {
+                width: fit-content;
+
+                span {
+                    margin-left: 40px;
+                    margin-right: 15px;
+                    font-size: 22px;
+                }
+
+                .chevron path {
+                    fill: $grey-line;
+                }
+            }
+
+            .wrapper-map {
+                border: 1px solid #212529;
+                left: -34%;
+                top: 20%;
+
+                .img-map {
+                    transform: translate(14px, -20px);
+                }
+                .img-diagonal {
+                    right: -13%;
+                    top: 20%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper-map {
+        position: absolute !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    #contact {
+        .wrapper-contact {
+            padding-top: 77px;
+
+            .contact {
+                &.description {
+                    padding-left: 60px;
+                }
+                .wrapper-map {
+                    left: 0;
+                    top: 28%;
+
+                    .img-map {
+                        width: 385px !important;
+                        height: 324px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #contact {
+        .wrapper-contact {
+            .contact {
+                padding: 20px 0;
+                height: auto;
+
+                &-link {
+                    span {
+                        margin-left: 5px;
+                        font-size: 17px;
+                    }
+                }
+                &.description {
+                    padding-left: 0 !important;
+                }
+                .wrapper-map {
+                    text-align: center;
+                    top: 0;
+                    left: 0;
+
+                    .img-map {
+                        transform: translate(0, 0) !important;
+                        width: 300px !important;
+                        height: 253px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    #contact {
+        .wrapper-contact .contact-title {
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+}

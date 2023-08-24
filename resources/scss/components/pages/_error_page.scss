@@ -1,0 +1,23 @@
+.black-block {
+    height: 127px;
+    width: 100%;
+    background-color: $black;
+}
+
+.grey-block {
+    height: 214px;
+    width: 100%;
+    background-color: $grey4;
+}
+
+.error-wrapper {
+    height: 60vh;
+    margin-top: -150px;
+
+    &-img {
+        height: 292px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}

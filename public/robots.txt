@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /*.pdf$
+Sitemap: https://tehnobud.pl.ua/sitemap.xml

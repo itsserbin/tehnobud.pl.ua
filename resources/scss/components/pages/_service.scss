@@ -1,0 +1,110 @@
+#services {
+    .black-container {
+        min-height: 127px;
+    }
+    .contact {
+        &.description {
+            padding-top: 40px;
+            padding-left: 126px;
+        }
+        &-title {
+            padding-left: 70px;
+        }
+    }
+    .card-wrapper {
+        margin-bottom: 67px;
+
+        .card-service {
+            border: 1px solid $black;
+            .custom-scroll {
+                max-height: 320px;
+                overflow-y: auto;
+                direction: rtl;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+                &::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background: $blue;
+                }
+            }
+            ul {
+                direction: ltr;
+            }
+            p, li {
+                font-family: Gordita-Regular;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px;
+                direction: ltr;
+                color: #0f0f0f;
+            }
+            &-img {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 310px;
+            }
+        }
+    }
+    .primary-hover {
+        span {
+            top: 15px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #services {
+        .black-container {
+            min-height: 77px;
+        }
+        .contact.description {
+            padding-left: 50px;
+        }
+        .card {
+            &-wrapper {
+                .card-service-img {
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #services {
+        .black-container {
+            min-height: 60px;
+        }
+        .contact-title {
+            padding-left: 0;
+        }
+        .card {
+            &-wrapper {
+                .card-service-img {
+                    transform: translate(0, 0);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    #services {
+        .contact.description {
+            padding-left: 15px;
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn-consultation {
+        padding: 25px 70px !important;
+        transform: translate(0, 30px);
+    }
+}
