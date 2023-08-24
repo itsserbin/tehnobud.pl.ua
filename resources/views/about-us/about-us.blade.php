@@ -200,34 +200,24 @@
             <h3>{{__('about-us.documentation.title')}}</h3>
             <div class="wrapper-license mt-5">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/license1.png') }}" class="card-img-top"
+                                <img src="{{ asset('assets/images/img/license1.jpge') }}" class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.license')}}</p>
                             <p class="mt-3 text-dark">{{__('about-us.documentation.license-subtitle')}}</p>
                         </a>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/license2.png') }}" class="card-img-top"
+                                <img src="{{ asset('assets/images/img/license2.jpeg') }}" class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.sertificate')}}</p>
                             <p class="mt-3 text-dark">{{__('about-us.documentation.sertificate-title1')}}</p>
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <a class="nav-link text-center">
-                            <div class="card">
-                                <img src="{{ asset('assets/images/img/license3.png') }}" class="card-img-top"
-                                     alt="item">
-                            </div>
-                            <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.license')}}</p>
-                            <p class="mt-3 text-dark">{{__('about-us.documentation.sertificate-title2')}}</p>
                         </a>
                     </div>
                 </div>
