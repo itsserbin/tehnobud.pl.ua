@@ -36,11 +36,11 @@
                                             </svg>
                                             <span class="d-flex flex-column">
                                                 <a class="text-dark fw-bold mx-0 text-decoration-none"
-                                                   href="tel:+380674532775">
+                                                   href="tel:+380677021851">
                                                    +380 67 702 18 51
                                                 </a>
                                                 <a class="text-dark fw-bold mx-0 text-decoration-none"
-                                                   href="tel:+380504683770">
+                                                   href="tel:+380675310222">
                                                     +380 67 531 02 22
                                                 </a>
                                             </span>
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="row contact-item">
                                     <div class="col-12 col-xl-8">
-                                        <a class="nav-link contact-link" href="mailto: tehnobudpl@gmail.com ">
+                                        <a class="nav-link contact-link" href="mailto: stop_pol@ukr.net ">
                                             <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
@@ -199,7 +199,7 @@
                     <div class="col-12 col-md-5 contact position-relative">
                         <div class="wrapper-map">
                             <iframe class="img-map"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586.5138438883127!2d34.5574721159216!3d49.58805875700556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d825f5400a8677%3A0xc2ae4b9224cb7240!2z0YPQuy4g0JPQvtCz0L7Qu9GPLCA0LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDM2MDAw!5e0!3m2!1sru!2sua!4v1620033236311!5m2!1sru!2sua"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.4021889442065!2d34.53206739311447!3d49.571301976634906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f400999d4a5%3A0xe8d3ec109d132e66!2z0YPQuy4g0JrQsNCz0LDQvNC70LjQutCwLCAxMSwg0J_QvtC70YLQsNCy0LAsINCf0L7Qu9GC0LDQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAzNjAwMA!5e0!3m2!1sru!2sua!4v1692982418536!5m2!1sru!2sua"
                                     width="600" height="450" style="border:0;" allowfullscreen=""
                                     loading="lazy"></iframe>
                             <img class="img-diagonal position-absolute d-none d-md-block"
