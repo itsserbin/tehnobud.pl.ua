@@ -43,7 +43,3 @@ foreach ($locals as $local) {
         }
     );
 }
-
-Route::get('index.php',function(){
-    return redirect(route('index'),301);
-});
