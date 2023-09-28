@@ -5,12 +5,19 @@
 
 @extends('layout', ['url' => $url])
 
+@section('head')
+    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::render('building',$building))
+@endsection
+
 @section('content')
     <section class="object bg-light" itemscope itemtype="http://schema.org/Product">
         <div class="container-fluid object-container">
             <div class="container-fluid object-container-mobile">
                 <div class="row flex-column-reverse flex-xl-row">
                     <div class="col-12 col-xl-10 bg-light pt-5 wrapper-description">
+                        <div class="s-breadcrumbs mb-5">
+                            {{ Breadcrumbs::render('building',$building) }}
+                        </div>
                         <div class="row d-block d-xl-none mb-4">
                             <div class="col-12">
                                 <div class="wrapper-button">

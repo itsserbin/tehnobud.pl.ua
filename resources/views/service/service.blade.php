@@ -1,9 +1,17 @@
 @extends('layout')
 
-@section('content')
+@section('head')
+    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::render('services'))
+@endsection
 
+@section('content')
     <section id="services">
         <div class="container-fluid bg-dark black-container"></div>
+        <div class="container">
+            <div class="s-breadcrumbs">
+                {{ Breadcrumbs::render('services') }}
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="wrapper-contact">
                 <div class="row">

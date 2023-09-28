@@ -27,17 +27,23 @@ foreach ($locals as $local) {
         function () {
 
             Route::get('/', [IndexController::class, 'index'])
-                 ->name('index');
+                ->name('index');
 
-            Route::get('/service', [StaticPageController::class, 'service']);
-            Route::get('/about-us', [StaticPageController::class, 'aboutUs']);
-            Route::get('/contact', [StaticPageController::class, 'contact']);
+            Route::get('service', [StaticPageController::class, 'service'])
+                ->name('service');
 
-            if ( ! Request::is('ru')){
-                Route::get('/{slug}', [BuildingController::class, 'getBySlug'])->name('building');
+            Route::get('about-us', [StaticPageController::class, 'aboutUs'])
+                ->name('about-us');
+
+            Route::get('contact', [StaticPageController::class, 'contact'])
+                ->name('contact');
+
+            if (!Request::is('ru')) {
+                Route::get('/{slug}', [BuildingController::class, 'getBySlug'])
+                    ->name('building');
 
                 Route::get('/{slug_building}/news/{slug_new}', [NewsController::class, 'getBySlug'])
-                     ->name('news');
+                    ->name('news');
             }
 
         }

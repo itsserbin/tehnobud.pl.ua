@@ -1,11 +1,18 @@
 @extends('layout')
 
+@section('head')
+    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::render('contact'))
+@endsection
+
 @section('content')
     <section id="contact">
         <div class="container-fluid bg-dark">
             <div class="wrapper-contact">
                 <div class="row flex-column flex-md-row">
                     <div class="col-12 col-md-7 bg-white contact description position-relative">
+                        <div class="s-breadcrumbs mb-5">
+                            {{ Breadcrumbs::render('contact') }}
+                        </div>
                         <h2 class="contact-title text-uppercase">
                             {{__('contact.title')}}
                         </h2>

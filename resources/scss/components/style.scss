@@ -5,3 +5,20 @@
 //pages
 @import "typography/typography";
 @import "pages/pages";
+
+.s-breadcrumbs {
+  color: black;
+  margin: 0.5rem 0 0 0;
+  border-radius: 5px;
+  padding: 5px;
+
+  ol {
+    margin: 0;
+  }
+
+  .breadcrumb-item,
+  .breadcrumb-item + .breadcrumb-item::before,
+  a {
+    color: black !important;
+  }
+}

@@ -1,11 +1,18 @@
 @extends('layout')
 
+@section('head')
+    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::generate('about-us'))
+@endsection
+
 @section('content')
     <section id="about-us">
         <div class="container-fluid bg-dark">
             <div class="wrapper-contact">
                 <div class="row flex-column-reverse flex-md-row">
                     <div class="col-12 col-md-7 bg-light contact description position-relative">
+                        <div class="s-breadcrumbs mb-5">
+                            {{ Breadcrumbs::render('about-us') }}
+                        </div>
                         <h2 class="contact-title text-uppercase">
                             {{__('about-us.title')}}
                         </h2>
@@ -203,7 +210,8 @@
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card mx-auto">
-                                <img loading="lazy" src="{{ asset('assets/images/img/license1.jpeg') }}" class="card-img-top"
+                                <img loading="lazy" src="{{ asset('assets/images/img/license1.jpeg') }}"
+                                     class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.license')}}</p>
@@ -213,7 +221,8 @@
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card mx-auto">
-                                <img loading="lazy" src="{{ asset('assets/images/img/license2.jpeg') }}" class="card-img-top"
+                                <img loading="lazy" src="{{ asset('assets/images/img/license2.jpeg') }}"
+                                     class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.sertificate')}}</p>
