@@ -4,12 +4,12 @@
             <div itemscope itemtype="http://schema.org/Organization">
                 @if(checkCurrentUrl('/') !== 'active')
                     <a itemprop="url" class="navbar-brand" href="{{localUrl("/")}}">
-                        <img itemprop="logo" src="{{ asset('assets/images/icon/logo.png') }}" alt="Techobud">
+                        <img loading="lazy" itemprop="logo" src="{{ asset('assets/images/icon/logo.png') }}" alt="Techobud">
                         <span class="logo-text text-uppercase fw-bold">{{__('home.main.logo')}}</span>
                     </a>
                 @else
                     <span class="navbar-brand">
-                        <img itemprop="logo" src="{{ asset('assets/images/icon/logo.png') }}" alt="Techobud">
+                        <img loading="lazy" itemprop="logo" src="{{ asset('assets/images/icon/logo.png') }}" alt="Techobud">
                         <span class="logo-text text-uppercase fw-bold">{{__('home.main.logo')}}</span>
                     </span>
                 @endif

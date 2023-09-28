@@ -4,12 +4,12 @@
             <div class="col-12 col-md-6">
                 @if(checkCurrentUrl('/') !== 'active')
                     <a class="navbar-brand" href="{{localUrl("/")}}">
-                        <img src="{{ asset('assets/images/icon/logo-footer.png') }}" alt="Logo">
+                        <img loading="lazy" src="{{ asset('assets/images/icon/logo-footer.png') }}" alt="Logo">
                         <span class="logo-text text-uppercase fw-bold">{{__('home.main.logo')}}</span>
                     </a>
                 @else
                     <span class="navbar-brand">
-                        <img src="{{ asset('assets/images/icon/logo-footer.png') }}" alt="Logo">
+                        <img loading="lazy" src="{{ asset('assets/images/icon/logo-footer.png') }}" alt="Logo">
                         <span class="logo-text text-uppercase fw-bold">{{__('home.main.logo')}}</span>
                     </span>
                 @endif

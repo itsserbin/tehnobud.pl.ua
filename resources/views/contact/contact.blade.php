@@ -202,7 +202,7 @@
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.4021889442065!2d34.53206739311447!3d49.571301976634906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f400999d4a5%3A0xe8d3ec109d132e66!2z0YPQuy4g0JrQsNCz0LDQvNC70LjQutCwLCAxMSwg0J_QvtC70YLQsNCy0LAsINCf0L7Qu9GC0LDQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAzNjAwMA!5e0!3m2!1sru!2sua!4v1692982418536!5m2!1sru!2sua"
                                     width="600" height="450" style="border:0;" allowfullscreen=""
                                     loading="lazy"></iframe>
-                            <img class="img-diagonal position-absolute d-none d-md-block"
+                            <img loading="lazy" class="img-diagonal position-absolute d-none d-md-block"
                                  src="{{ asset('assets/images/img/diagonal-vertical.png') }}" alt="">
                         </div>
                     </div>

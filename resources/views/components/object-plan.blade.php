@@ -19,7 +19,7 @@
                                 style="width: 1200px; height: 700px; position: absolute; left: 0; top: 0; padding: 0;
                                  border: 0; opacity: 1;"
                                 height="700" width="1200"></canvas>
-                        <img src="{{ $plan->plan }}" alt="{{$plan->name}}"
+                        <img loading="lazy" src="{{ $plan->plan }}" alt="{{$plan->name}}"
                              style="max-width: unset; opacity: 0; position: absolute; left: 0; top: 0;
                                                                       padding: 0; border: 0;"
                              usemap="#Map-{{$plan->id}}" class="maphilighted">
@@ -75,7 +75,7 @@
         @foreach($plans as $plan)
             <div class="col-4">
                 <div class="border object-line" data-counter="{{$plan->id}}" data-name="{{$plan->name}}">
-                    <img class="w-100" src="{{ $plan->plan }}" alt="">
+                    <img loading="lazy" class="w-100" src="{{ $plan->plan }}" alt="">
                 </div>
                 <p class="text-center">{{$plan->name}}</p>
             </div>
@@ -86,7 +86,7 @@
         @foreach($plans as $plan)
             @foreach($plan->rooms as $room)
                 <div rel="lightbox5" id="rooms-{{$plan->id}}-{{$room->number_room}}" class="layout-modal-content">
-                    <img src="{{$room->photo}}" title="Координаты" alt="{{$room->name}}">
+                    <img loading="lazy" src="{{$room->photo}}" title="Координаты" alt="{{$room->name}}">
                     {{--            <a class="one-product-layout__print-btn" href="#"--}}
                     {{--               onclick="window.open('{{localUrl("print/room/$layoutCoordinate->id")}}', 'myWindow',--}}
                     {{--                   'status = 1,  width = 820' )">Печать</a>--}}

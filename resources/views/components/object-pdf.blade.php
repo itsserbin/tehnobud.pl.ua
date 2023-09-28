@@ -21,9 +21,9 @@
                 </a>
             </div>
             <div class="col-12 col-md-4 d-none d-md-block">
-                <img class="pdf-book position-absolute"
+                <img loading="lazy" class="pdf-book position-absolute"
                      src="{{ $presentation->photo ?? asset('assets/images/img/book-pdf.png') }}" alt="">
-                <img class="diagonal-black position-absolute" src="{{ asset('assets/images/img/diagonal-black.png') }}"
+                <img loading="lazy" class="diagonal-black position-absolute" src="{{ asset('assets/images/img/diagonal-black.png') }}"
                      alt="">
             </div>
         </div>

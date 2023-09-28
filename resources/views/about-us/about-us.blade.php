@@ -54,7 +54,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v1.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v1.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -68,7 +68,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v2.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v2.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -82,7 +82,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v3.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v3.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -96,7 +96,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v4.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v4.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -110,7 +110,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v5.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v5.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -124,7 +124,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v6.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v6.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -138,7 +138,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v7.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v7.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -152,7 +152,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v8.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v8.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -166,7 +166,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v9.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v9.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -180,7 +180,7 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mx-0 mx-xl-2 mb-3">
                         <a class="nav-link">
                             <div class="card">
-                                <img src="{{ asset('assets/images/img/service/v10.png') }}"
+                                <img loading="lazy" src="{{ asset('assets/images/img/service/v10.png') }}"
                                      class="card-img-top position-absolute" alt="item">
                                 <div class="card-body">
                                     <div class="row">
@@ -203,7 +203,7 @@
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card mx-auto">
-                                <img src="{{ asset('assets/images/img/license1.jpeg') }}" class="card-img-top"
+                                <img loading="lazy" src="{{ asset('assets/images/img/license1.jpeg') }}" class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.license')}}</p>
@@ -213,7 +213,7 @@
                     <div class="col-12 col-md-6">
                         <a class="nav-link text-center">
                             <div class="card mx-auto">
-                                <img src="{{ asset('assets/images/img/license2.jpeg') }}" class="card-img-top"
+                                <img loading="lazy" src="{{ asset('assets/images/img/license2.jpeg') }}" class="card-img-top"
                                      alt="item">
                             </div>
                             <p class="mt-3 fw-bold text-dark">{{__('about-us.documentation.sertificate')}}</p>
@@ -230,7 +230,7 @@
             <div class="row mt-5 justify-content-center wrapper-partner">
                 <div class="col-4 col-lg-3 col-xl-2 mx-3 mx-md-0 mx-xl-2 mb-5 text-center d-flex flex-column justify-content-center d-flex flex-column justify-content-center">
                     <div class="row partner-img">
-                        <img src="{{ asset('assets/images/img/service/partner_1.png') }}" alt="item">
+                        <img loading="lazy" src="{{ asset('assets/images/img/service/partner_1.png') }}" alt="item">
                     </div>
                     <div class="row">
                         <span>Крайт</span>
@@ -238,7 +238,7 @@
                 </div>
                 <div class="col-4 col-lg-3 col-xl-2 mx-3 mx-md-0 mx-xl-2 mb-5 text-center d-flex flex-column justify-content-center">
                     <div class="row partner-img">
-                        <img src="{{ asset('assets/images/img/service/partner_2.png') }}" alt="item">
+                        <img loading="lazy" src="{{ asset('assets/images/img/service/partner_2.png') }}" alt="item">
                     </div>
                     <div class="row">
                         <span>
@@ -248,7 +248,7 @@
                 </div>
                 <div class="col-4 col-lg-3 col-xl-2 mx-3 mx-md-0 mx-xl-2 mb-5 text-center d-flex flex-column justify-content-center">
                     <div class="row partner-img">
-                        <img src="{{ asset('assets/images/img/service/partner_3.png') }}" alt="item">
+                        <img loading="lazy" src="{{ asset('assets/images/img/service/partner_3.png') }}" alt="item">
                     </div>
                     <div class="row">
                         <span>
@@ -258,7 +258,7 @@
                 </div>
                 <div class="col-4 col-lg-3 col-xl-2 mx-3 mx-md-0 mx-xl-2 mb-5 text-center d-flex flex-column justify-content-center">
                     <div class="row partner-img">
-                        <img src="{{ asset('assets/images/img/service/partner_4.png') }}" alt="item">
+                        <img loading="lazy" src="{{ asset('assets/images/img/service/partner_4.png') }}" alt="item">
                     </div>
                     <div class="row">
                         <span>
@@ -268,7 +268,7 @@
                 </div>
                 <div class="col-4 col-lg-3 col-xl-2 mx-3 mx-md-0 mx-xl-2 mb-5 text-center d-flex flex-column justify-content-center">
                     <div class="row partner-img">
-                        <img src="{{ asset('assets/images/img/service/partner_5.png') }}" alt="item">
+                        <img loading="lazy" src="{{ asset('assets/images/img/service/partner_5.png') }}" alt="item">
                     </div>
                     <div class="row">
                         <span>

@@ -45,7 +45,7 @@
 
 <div class="parent">
     <div class="block">
-        <img src="{{asset('assets/images/img/technical_work/Tech.png')}}" alt=""/>
+        <img loading="lazy" src="{{asset('assets/images/img/technical_work/Tech.png')}}" alt=""/>
     </div>
 </div>
 

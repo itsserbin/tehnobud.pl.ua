@@ -54,7 +54,7 @@
                             data-bs-toggle="modal" data-bs-dismiss="modal"></button>
                 </form>
             </div>
-            <img class="modal-diagonal" src="{{ asset('assets/images/img/diagonal-vertical.png') }}" alt="">
+            <img loading="lazy" class="modal-diagonal" src="{{ asset('assets/images/img/diagonal-vertical.png') }}" alt="">
         </div>
     </div>
 </div>
@@ -93,25 +93,25 @@
                 <div class="row mb-5 justify-content-center">
                     {{--<div class="col text-center">
                         <a href="#">
-                            <img src="{{ asset('assets/images/img/fb_share.png') }}" alt="facebook">
+                            <img loading="lazy" src="{{ asset('assets/images/img/fb_share.png') }}" alt="facebook">
                             <span>Facebook</span>
                         </a>
                     </div>--}}
                     <div class="col-3 text-center">
                         <a href="https://t.me/share/url?url={!! url()->current() !!}&text={{$textShare ?? ''}}">
-                            <img src="{{ asset('assets/images/img/tg_share.png') }}" alt="Telegram">
+                            <img loading="lazy" src="{{ asset('assets/images/img/tg_share.png') }}" alt="Telegram">
                             <span>Telegram</span>
                         </a>
                     </div>
                     <div class="col-3 text-center">
                         <a href="viber://forward?text={!! $textShare ?? '' !!} {!! url()->current() !!}">
-                            <img src="{{ asset('assets/images/img/vb_share.png') }}" alt="Viber">
+                            <img loading="lazy" src="{{ asset('assets/images/img/vb_share.png') }}" alt="Viber">
                             <span>Viber</span>
                         </a>
                     </div>
                     <div class="col-3 text-center">
                         <a href="https://wa.me/?text={!! $textShare ?? '' !!} {!! url()->current() !!}">
-                            <img src="{{ asset('assets/images/img/wa_share.png') }}" alt="Whatsapp">
+                            <img loading="lazy" src="{{ asset('assets/images/img/wa_share.png') }}" alt="Whatsapp">
                             <span>Whatsapp</span>
                         </a>
                     </div>
@@ -123,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <img class="modal-diagonal" src="{{ asset('assets/images/img/diagonal-vertical.png') }}" alt="">
+            <img loading="lazy" class="modal-diagonal" src="{{ asset('assets/images/img/diagonal-vertical.png') }}" alt="">
         </div>
     </div>
 </div>

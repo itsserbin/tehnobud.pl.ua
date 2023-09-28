@@ -8,7 +8,7 @@
             @include('components.slider-item', ['slider' => $slider])
         @endforeach
     </div>
-    <img class="diagonal position-absolute" src="{{ asset('assets/images/img/diagonal.png') }}" alt="">
+    <img loading="lazy" class="diagonal position-absolute" src="{{ asset('assets/images/img/diagonal.png') }}" alt="">
 </div>
 
 <div class="col-12 wrapper-slider mobile-slider d-block d-xl-none">

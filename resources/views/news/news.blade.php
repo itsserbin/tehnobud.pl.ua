@@ -59,7 +59,7 @@
                         <div class="row">
                             @foreach($blogs->images as $image)
                                 <div class="col-12 col-md-4 mb-3">
-                                    <img src="{{ $image->media }}" alt=""
+                                    <img loading="lazy" src="{{ $image->media }}" alt=""
                                          class="img-news w-100">
                                 </div>
                             @endforeach

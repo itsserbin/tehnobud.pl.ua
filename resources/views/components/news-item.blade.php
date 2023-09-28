@@ -8,7 +8,7 @@
     </h4>
     <div class="row flex-column flex-md-row">
         <div class="col-12 col-md-3">
-            <img class="news-img w-100" src="{{ $new->images[0]->media ?? asset('assets/images/img/news-img.png') }}" alt="">
+            <img loading="lazy" class="news-img w-100" src="{{ $new->images[0]->media ?? asset('assets/images/img/news-img.png') }}" alt="">
         </div>
         <div class="col-12 col-md-7 mt-3 mt-md-0">
             <p class="news-date fw-bold">

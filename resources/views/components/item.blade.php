@@ -6,7 +6,7 @@
         <div class="card">
             <a itemprop="url" href="{{localUrl("/$building->slug")}}" class="position-relative">
                 <span class="card-hover"></span>
-                <img itemprop="image" src="{{ $building->mainPhoto?->url ?? asset('assets/images/img/item.png') }}"
+                <img loading="lazy" itemprop="image" src="{{ $building->mainPhoto?->url ?? asset('assets/images/img/item.png') }}"
                      class="card-img-top" alt="item">
                 <span class="row position-absolute hover-link text-center">
                     <span class="col-12">
