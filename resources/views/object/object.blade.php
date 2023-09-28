@@ -6,7 +6,7 @@
 @extends('layout', ['url' => $url])
 
 @section('head')
-    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::render('building',$building))
+    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::generate('building',$building))
 @endsection
 
 @section('content')

@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('head')
-    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::render('services'))
+    @include('schema.breadcrumbs',$breadcrumbs = Breadcrumbs::generate('services'))
 @endsection
 
 @section('content')
