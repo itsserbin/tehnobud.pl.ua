@@ -43,12 +43,8 @@
                                             </svg>
                                             <span class="d-flex flex-column">
                                                 <a class="text-dark fw-bold mx-0 text-decoration-none"
-                                                   href="tel:+380677021851">
-                                                   +380 67 702 18 51
-                                                </a>
-                                                <a class="text-dark fw-bold mx-0 text-decoration-none"
-                                                   href="tel:+380675310222">
-                                                    +380 67 531 02 22
+                                                   href="tel:+380503052277">
+                                                  +380 (50) 305 22 77
                                                 </a>
                                             </span>
 
